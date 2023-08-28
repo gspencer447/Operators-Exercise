@@ -12,10 +12,10 @@
 
             if (a == 17 && b == 4) 
             { 
-                Console.WriteLine($"17/4 is {quotient} remainder {remainder}.");
-                Console.WriteLine(AreaOfCircle.CircleArea());
+                Console.WriteLine($"{a}/{b} is {quotient} remainder {remainder}.");
             }
             
+                Console.WriteLine(AreaOfCircle.CircleArea());
         }
     }
 }
